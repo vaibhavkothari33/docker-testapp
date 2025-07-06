@@ -1,6 +1,6 @@
 FROM node
-ENV MONGO_DB_USERNAME=admin \
-    MONGO_DB_PASSWORD=qwerty
+ENV MONGO_DB_USERNAME= \
+    MONGO_DB_PASSWORD=
 
 RUN mkdir -p docker   
 
